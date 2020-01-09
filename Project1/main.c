@@ -1,7 +1,15 @@
-# include <stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-int main()
-{
-    printf("Hej");
-    return 0;
+
+int main(){
+
+int a[10], *iptr;
+iptr = a;
+*iptr = 5;
+
+printf(" Adress: %d value: %d", iptr, *iptr);
+
+return 0;
 }
+
