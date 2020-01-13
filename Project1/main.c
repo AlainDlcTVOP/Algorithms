@@ -6,9 +6,11 @@ int main(){
 
 int a[10], *iptr;
 iptr = a;
-*iptr = 5;
 
-printf(" Adress: %d value: %d", iptr, *iptr);
+*iptr = 45;
+ 
+
+printf(" Adress: %p value: %d", iptr, *iptr);
 
 return 0;
 }
